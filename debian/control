@@ -12,6 +12,7 @@ Build-Depends: cmake,
                libepoxy-dev (>= 1.2),
                libice-dev,
                libinput-dev,
+               libkdecorations2-dev,
                libkf5activities-dev (>= 5.2.0),
                libkf5completion-dev (>= 5.2.0),
                libkf5config-dev (>= 5.2.0),
@@ -86,21 +87,6 @@ Depends: kwin-data (= ${source:Version}),
 Recommends: kwin-decoration-oxygen, libqt5multimedia5
 Suggests: kwin-addons
 Description: KDE window manager
- KWin (pronounced as one syllable "kwin") is the window
- manager for the KDE Plasma Desktop. It gives you complete
- control over your windows, making sure they're not in the way
- but aid you in your task. It paints the window decoration,
- the bar on top of every window with (configurable) buttons
- like close, maximize and minimize. It also handles placing
- of windows and switching between them.
- .
- This package is part of the KDE base workspace module.
-
-Package: libkdecorations5
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: KDE window manager decoration library
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
  control over your windows, making sure they're not in the way

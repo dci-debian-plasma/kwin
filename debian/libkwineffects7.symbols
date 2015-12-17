@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:5.4.1+git20150919.0159 amd64 i386
-libkwineffects.so.6 libkwineffects6 #MINVER#
+libkwineffects.so.7 libkwineffects7 #MINVER#
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 4:5.1.95+git20150122
  _ZN4KWin11EffectFrameC1Ev@Base 4:5.1.95+git20150122
@@ -282,6 +282,7 @@ libkwineffects.so.6 libkwineffects6 #MINVER#
  _ZNK4KWin12EffectWindow7desktopEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow7isModalEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow7opacityEv@Base 4:5.1.95+git20150122
+ _ZNK4KWin12EffectWindow7surfaceEv@Base 4:5.4.80+git20150917.2123+15.10
  _ZNK4KWin12EffectWindow8geometryEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow8hasAlphaEv@Base 4:5.1.95+git20150122
  _ZNK4KWin12EffectWindow8isDialogEv@Base 4:5.1.95+git20150122

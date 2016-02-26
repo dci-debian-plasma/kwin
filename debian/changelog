@@ -34,6 +34,8 @@ kwin (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Refresh symbols. 
+  * Add Multi-Arch same to libkwin4-effect-builtins1 to make
+    lintain happy. 
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:12:59 +0000
 

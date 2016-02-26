@@ -32,6 +32,9 @@ kwin (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
   * Bump versions for libkwinglutils, libkwinxenderutils and
     libkwineffects
 
+  [ Scarlett Clark ]
+  * Refresh symbols. 
+
  -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:12:59 +0000
 
 kwin (4:5.4.3-0ubuntu5) xenial; urgency=medium

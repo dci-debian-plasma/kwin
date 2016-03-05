@@ -41,6 +41,7 @@ kwin (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
   [ Clive Johnston ]
   * Adding min versions for build deps
   * Adding libhybris-dev as build dep 
+  * Refreshing symbols
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:12:59 +0000
 

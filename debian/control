@@ -10,8 +10,8 @@ Build-Depends: cmake (>= 2.8.12),
                kdoctools-dev (>= 5.18.0~),
                kinit-dev (>= 5.18.0~),
                kio-dev (>= 5.18.0~),
-               kscreenlocker-dev (>= 5.5.1~),
-               kwayland-dev (>= 4:5.5.1~),
+               kscreenlocker-dev (>= 5.5.5~),
+               kwayland-dev (>= 4:5.5.5~),
                libegl1-mesa-dev (>= 1.2~),
                libepoxy-dev (>= 1.2),
                libfontconfig1-dev,
@@ -19,7 +19,7 @@ Build-Depends: cmake (>= 2.8.12),
                libgbm-dev,
                libice-dev,
                libinput-dev (>= 0.10~),
-               libkdecorations2-dev (>= 4:5.5.1~),
+               libkdecorations2-dev (>= 4:5.5.5~),
                libkf5activities-dev (>= 5.18.0~),
                libkf5completion-dev (>= 5.18.0~),
                libkf5config-dev (>= 5.18.0~),
@@ -237,34 +237,6 @@ Description: KDE window manager render utils library
  of windows and switching between them.
  .
  This package is part of the KDE base workspace module.
-
-#Package: kwin-hwcomposer-backend
-#Depends: kwin-wayland-backend-hwcomposer, ${misc:Depends}
-#Architecture: all
-#Multi-Arch: foreign
-#Priority: extra
-#Section: oldlibs
-#Description: transitional dummy package
-# This is a transitional dummy package. It can safely be removed.
-
-# requires libhybris but the not the ubuntu version of it
-#Package: kwin-wayland-backend-hwcomposer
-#Section: libs
-#Architecture: armel armhf
-#Depends: ${misc:Depends}, ${shlibs:Depends}
-#Breaks: kwin-hwcomposer-backend (<< 4:5.3.90+git20150807)
-#Replaces: kwin-hwcomposer-backend (<< 4:5.3.90+git20150807)
-#Provides: kwin-wayland-backend
-#Description: KDE window manager hwcompositor plugin
-# KWin (pronounced as one syllable "kwin") is the window
-# manager for the KDE Plasma Desktop. It gives you complete
-# control over your windows, making sure they're not in the way
-# but aid you in your task. It paints the window decoration,
-# the bar on top of every window with (configurable) buttons
-# like close, maximize and minimize. It also handles placing
-# of windows and switching between them.
-# .
-# This package is part of the KDE base workspace module.
 
 Package: kwin-wayland-backend-drm
 Section: libs

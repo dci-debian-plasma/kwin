@@ -40,7 +40,6 @@ kwin (4:5.5.4-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
   * Adding min versions for build deps
-  * Adding libhybris-dev as build dep 
 
  -- Clive Johnston <clivejo@aol.com>  Mon, 07 Mar 2016 21:24:43 +0100
 

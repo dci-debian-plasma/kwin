@@ -1,4 +1,4 @@
-kwin (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
+kwin (4:5.5.4-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release Xenial.
@@ -42,7 +42,7 @@ kwin (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
   * Adding min versions for build deps
   * Adding libhybris-dev as build dep 
 
- -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:12:59 +0000
+ -- Clive Johnston <clivejo@aol.com>  Mon, 07 Mar 2016 21:24:43 +0100
 
 kwin (4:5.4.3-0ubuntu5) xenial; urgency=medium
 

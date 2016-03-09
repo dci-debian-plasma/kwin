@@ -1,5 +1,38 @@
-kwin (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
+kwin (4:5.5.4-0ubuntu1) xenial; urgency=medium
 
+<<<<<<<
+  [ Scarlett Clark ]
+  * New upstream release Xenial.
+  * Batchpatch symbols amd64,i386.
+  * Debian Merge: Remaining changes:
+    Changes for new release.
+    Build libkwinglutils7 on any architecture, unbreaks build on armhf
+  * Fix several merge markers, another batch patch symbols.
+
+  [ Clive Johnston ]
+  * new upstream release
+  * Removed Add_workaround_for_broken_no-XRandr_in_screen_edge_test.patch
+  * Added missing kwin_scripts.mo files to kwin-data.install
+
+  [ Bhushan Shah ]
+  * Build libkwinglutils7 on any architecture, unbreaks build on armhf
+
+  [ Scarlett Clark ]
+  * Merging unstable in a desperate attempt to fix merger. 
+  * Fix merge. 
+  * Merge unstable to get debian merge in archive. 
+  * Bump version. 
+
+  [ Philip Muškovac ]
+  * kwin-common breaks/replaces kwin-data << 4:5.5.3~
+
+  [ Clive Johnston ]
+  * New upstream release
+
+  [ Bhushan Shah ]
+  * Bump versions for libkwinglutils, libkwinxenderutils and
+    libkwineffects
+=======
   [ Scarlett Clark ]
   * New upstream release Xenial.
   * Batchpatch symbols amd64,i386.
@@ -32,7 +65,24 @@ kwin (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
   * Bump versions for libkwinglutils, libkwinxenderutils and
     libkwineffects
 
- -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:12:59 +0000
+  [ Scarlett Clark ]
+  * Refresh symbols. 
+  * Add Multi-Arch same to libkwin4-effect-builtins1 to make
+    lintain happy. 
+  * Refresh symbols with correct version. 
+
+  [ Clive Johnston ]
+  * Adding min versions for build deps
+>>>>>>>
+
+ -- Clive Johnston <clivejo@aol.com>  Mon, 07 Mar 2016 21:24:43 +0100
+
+kwin (4:5.4.3-0ubuntu5) xenial; urgency=medium
+
+  * Disable libhybris entirely on upstream recommendation, as it requires
+    libhybris upstream git, not the ubuntu fork
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 03 Feb 2016 22:44:44 +0100
 
 kwin (4:5.4.3-0ubuntu4) xenial; urgency=medium
 

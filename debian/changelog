@@ -1,6 +1,11 @@
+kwin (4:5.5.5-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 08 Mar 2016 22:31:01 +0100
+
 kwin (4:5.5.4-0ubuntu1) xenial; urgency=medium
 
-<<<<<<<
   [ Scarlett Clark ]
   * New upstream release Xenial.
   * Batchpatch symbols amd64,i386.
@@ -32,7 +37,6 @@ kwin (4:5.5.4-0ubuntu1) xenial; urgency=medium
   [ Bhushan Shah ]
   * Bump versions for libkwinglutils, libkwinxenderutils and
     libkwineffects
-=======
   [ Scarlett Clark ]
   * New upstream release Xenial.
   * Batchpatch symbols amd64,i386.
@@ -73,7 +77,6 @@ kwin (4:5.5.4-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
   * Adding min versions for build deps
->>>>>>>
 
  -- Clive Johnston <clivejo@aol.com>  Mon, 07 Mar 2016 21:24:43 +0100
 

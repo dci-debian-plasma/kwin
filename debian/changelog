@@ -1,6 +1,10 @@
 kwin (4:5.5.5-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Philip Muškovac ]
   * New upstream bugfix release
+
+  [ Clive Johnston ]
+  * Multi-arch libkwin4-effect-builtins1 to keep lintian happy
 
  -- Philip Muškovac <yofel@kubuntu.org>  Tue, 08 Mar 2016 22:31:01 +0100
 

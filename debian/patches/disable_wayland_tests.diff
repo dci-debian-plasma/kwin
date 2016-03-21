@@ -1,0 +1,19 @@
+Description: Disable wayland tests
+ Disable the wayland tests until we have a working autopkgtest setup for them
+Author: Philip Muskovac <yofel@gmx.net>
+
+---
+Origin: vendor
+Forwarded: not-needed
+Last-Update: 2016-03-21
+
+--- kwin-5.5.4.orig/autotests/CMakeLists.txt
++++ kwin-5.5.4/autotests/CMakeLists.txt
+@@ -1,6 +1,6 @@
+ add_definitions(-DKWIN_UNIT_TEST)
+ remove_definitions(-DQT_USE_QSTRINGBUILDER)
+-add_subdirectory(wayland)
++#add_subdirectory(wayland)
+ 
+ ########################################################
+ # Test ScreenPaintData

@@ -8,6 +8,13 @@ kwin (4:5.5.5-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Philip Muškovac <yofel@kubuntu.org>  Tue, 08 Mar 2016 22:31:01 +0100
 
+kwin (4:5.5.4-0ubuntu2) xenial; urgency=medium
+
+  * Add disable_wayland_tests.diff to disable the wayland autopkgtests as we
+    don't have the proper configuration for them
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 21 Mar 2016 22:14:33 +0100
+
 kwin (4:5.5.4-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]

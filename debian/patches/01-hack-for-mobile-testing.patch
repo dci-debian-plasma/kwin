@@ -1,0 +1,27 @@
+diff --git a/main_wayland.cpp b/main_wayland.cpp
+index f15d30e..d45ff67 100644
+--- a/main_wayland.cpp
++++ b/main_wayland.cpp
+@@ -415,6 +415,7 @@ static void disablePtrace()
+ 
+ int main(int argc, char * argv[])
+ {
++#if 0
+     KWin::disablePtrace();
+     KWin::Application::setupMalloc();
+     KWin::Application::setupLocalizedString();
+@@ -433,6 +434,7 @@ int main(int argc, char * argv[])
+     pthread_sigmask(SIG_BLOCK, &userSignals, nullptr);
+ 
+     QProcessEnvironment environment = QProcessEnvironment::systemEnvironment();
++#endif
+ 
+     // enforce our internal qpa plugin, unfortunately command line switch has precedence
+     setenv("QT_QPA_PLATFORM", "wayland-org.kde.kwin.qpa", true);
+@@ -447,6 +449,7 @@ int main(int argc, char * argv[])
+     a.setupTranslator();
+     // reset QT_QPA_PLATFORM to a sane value for any processes started from KWin
+     setenv("QT_QPA_PLATFORM", "wayland", true);
++    QProcessEnvironment environment = QProcessEnvironment::systemEnvironment();
+ 
+     KWin::Application::createAboutData();

@@ -1,4 +1,4 @@
-kwin (4:5.5.5-0ubuntu1) UNRELEASED; urgency=medium
+kwin (4:5.5.5-0ubuntu1) xenial; urgency=medium
 
   [ Philip Muškovac ]
   * New upstream bugfix release
@@ -6,7 +6,7 @@ kwin (4:5.5.5-0ubuntu1) UNRELEASED; urgency=medium
   [ Clive Johnston ]
   * Multi-arch libkwin4-effect-builtins1 to keep lintian happy
 
- -- Philip Muškovac <yofel@kubuntu.org>  Tue, 08 Mar 2016 22:31:01 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 14 Apr 2016 13:46:24 -0700
 
 kwin (4:5.5.4-0ubuntu2) xenial; urgency=medium
 

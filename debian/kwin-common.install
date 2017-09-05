@@ -8,7 +8,6 @@ usr/lib/*/libkdeinit5_kwin_rules_dialog.so
 usr/lib/*/libkwin.so.5
 usr/lib/*/libkwin.so.5.*
 usr/lib/*/qt5/plugins/kcm_kwin*.so
-usr/lib/*/qt5/plugins/kf5/org.kde.kidletime.platforms/KF5IdleTimeKWinWaylandPrivatePlugin.so
 usr/lib/*/qt5/plugins/kpackage/packagestructure/
 usr/lib/*/qt5/plugins/kwin*.so
 usr/lib/*/qt5/plugins/kwin/

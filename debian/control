@@ -158,10 +158,8 @@ Depends: kwin-common (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Provides: kwin
-Breaks: kwin (<< 4:5.3.2+git20150715),
-        kwin-common (<< ${source:Version}~ciBuild)
-Replaces: kwin (<< 4:5.3.2+git20150715),
-          kwin-common (<< ${source:Version}~ciBuild)
+Breaks: kwin (<< 4:5.3.2+git20150715), kwin-common (<< 4:5.11.0)
+Replaces: kwin (<< 4:5.3.2+git20150715), kwin-common (<< 4:5.11.0)
 Description: KDE window manager, wayland version
  KWin (pronounced as one syllable "kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete

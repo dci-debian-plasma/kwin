@@ -7,16 +7,16 @@ if [ "$1" = configure ]; then
     # The specific setcap invocations also need to be whitelisted to make the
     # build pass (in debian/meta/setcap.yaml as a nested array of argument
     # arrays).
+    path="/usr/bin/kwin_wayland"
     if command -v setcap > /dev/null; then
         cap="CAP_SYS_NICE=+ep"
-        path="/usr/bin/kwin_wayland"
         if setcap $cap $path; then
             echo "Setcap worked for $path!"
         else
             echo "Setcap failed for $path
         fi
     else
-        echo "Setcap is not installed" >&2
+        echo "Setcap is not installed, failed to setcap on $path" >&2
     fi
 fi
 

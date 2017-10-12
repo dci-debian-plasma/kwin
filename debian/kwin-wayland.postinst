@@ -13,7 +13,7 @@ if [ "$1" = configure ]; then
         if setcap $cap $path; then
             echo "Setcap worked for $path!"
         else
-            echo "Setcap failed for $path
+            echo "Setcap failed for $path"
         fi
     else
         echo "Setcap is not installed, failed to setcap on $path" >&2

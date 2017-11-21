@@ -383,8 +383,9 @@ Package: kwin
 Architecture: all
 Multi-Arch: no
 Depends: kwin-x11, ${misc:Depends}
-Priority: extra
+Priority: optional
 Section: oldlibs
 Description: Transitional dummy for kwin-x11
  This package is a transitional dummy to depend on the renamed kwin-x11 and
  can be removed.
+

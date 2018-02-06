@@ -1,7 +1,7 @@
-diff --git a/plugins/platforms/drm/egl_gbm_backend.cpp b/plugins/platforms/drm/egl_gbm_backend.cpp
-index 092cee377..2c956d677 100644
---- a/plugins/platforms/drm/egl_gbm_backend.cpp
-+++ b/plugins/platforms/drm/egl_gbm_backend.cpp
+Index: kwin-5.11.4/plugins/platforms/drm/egl_gbm_backend.cpp
+===================================================================
+--- kwin-5.11.4.orig/plugins/platforms/drm/egl_gbm_backend.cpp
++++ kwin-5.11.4/plugins/platforms/drm/egl_gbm_backend.cpp
 @@ -91,8 +91,9 @@ bool EglGbmBackend::initializeEgl()
      // if the implementation supports it.
      if (display == EGL_NO_DISPLAY) {
@@ -14,11 +14,11 @@ index 092cee377..2c956d677 100644
              return false;
          }
  
-diff --git a/plugins/platforms/virtual/egl_gbm_backend.cpp b/plugins/platforms/virtual/egl_gbm_backend.cpp
-index b4698a23f..5fef53747 100644
---- a/plugins/platforms/virtual/egl_gbm_backend.cpp
-+++ b/plugins/platforms/virtual/egl_gbm_backend.cpp
-@@ -104,8 +104,9 @@ bool EglGbmBackend::initializeEgl()
+Index: kwin-5.11.4/plugins/platforms/virtual/egl_gbm_backend.cpp
+===================================================================
+--- kwin-5.11.4.orig/plugins/platforms/virtual/egl_gbm_backend.cpp
++++ kwin-5.11.4/plugins/platforms/virtual/egl_gbm_backend.cpp
+@@ -103,8 +103,9 @@ bool EglGbmBackend::initializeEgl()
      // if the implementation supports it.
      if (display == EGL_NO_DISPLAY) {
          if (!hasClientExtension(QByteArrayLiteral("EGL_EXT_platform_base")) ||
@@ -29,3 +29,4 @@ index b4698a23f..5fef53747 100644
 +            setFailed("missing one or more extensions between EGL_EXT_platform_base,  EGL_MESA_platform_gbm, EGL_KHR_platform_gbm");
              return false;
          }
+ 
